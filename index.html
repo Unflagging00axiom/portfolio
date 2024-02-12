@@ -3,53 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Immaculé Kayinda</title>
   </head>
   <body>
-    <header>
-      <h1>Immaculé Kayinda</h1>
-      <div>
-        <ul>
-          <li>CV</li>
-          <li>PortFolio</li>
-          <li>Project</li>
+    <header class="header">
+      <div class="header__logo">Immaculé Kayinda</div>
+      <nav class="header__nav">
+        <ul class="header__nav__menu">
+          <li class="header__nav__menu-item">
+            <a href="#" class="header__nav__menu-link">CV</a>
+          </li>
+          <li class="header__nav__menu-item">
+            <a href="#" class="header__nav__menu-link">PortFolio</a>
+          </li>
+          <li class="header__nav__menu-item">
+            <a href="#" class="header__nav__menu-link">Project</a>
+          </li>
         </ul>
-      </div>
+      </nav>
     </header>
 
-    <main>
-      <div class="main_photography">
-        <img src="./assets/user.jpg" alt="Immaculé Kayinda" />
+    <main class="main">
+      <div class="main__photography">
+        <img class="main__photography__img" src="./assets/user.jpg" />
       </div>
-      <div class="about_me">
-        <h1>Hello</h1>
-        <p>
+      <div class="main__about-me">
+        <h1 class="main__title">Hello</h1>
+        <p class="main__text">
           Je suis Nicole Rider, une développeuse web passionnée doté d'une
           créativité débordante et d'un talent pour concrétiser des idées en
           expériences numériques interactives.
         </p>
-        <div class="links">
-          <div>CV</div>
-          <div>Projets</div>
-          <div>Contact</div>
+        <div class="main__about-me__bubbleLinks">
+          <div><a href="">CV</a></div>
+          <div><a href="">Projets</a></div>
+          <div><a href="">Contact</a></div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="telephone">
-        <h3>Téléphone</h3>
-        <p>+243 897 481 511</p>
-      </div>
-      <div class="emai">
-        <h3>Email</h3>
-        <p>immakaymw@gmail.com</p>
-      </div>
-      <div class="social_media">
-        <h3>Suivez moi</h3>
-        <div></div>
-      </div>
-      <div class="copyright">©2024, Immaculé Kayinda</div>
+      <div class="footer__bottom">
+        <div class="footer__item">
+          <h3 class="footer__title">Téléphone</h3>
+          <p class="footer__text">+243 897 481 511</p>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Email</h3>
+          <p class="footer__text">immakaymw@gmail.com</p>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Suivez moi</h3>
+          <div class="footer__social"></div>
+        </div>
+
+        <div class="footer__item">
+          <h3 class="footer__title">©2024, Immaculé Kayinda</h3>
+        </div>
     </footer>
   </body>
 </html>

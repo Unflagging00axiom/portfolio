@@ -4,45 +4,87 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Immacule Kayinda</title>
-	<link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="./styles/init.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/cv.css">
+
 	</head>
 	<body>
-	<div class='header'>Bonjour je suis un header</div>
+	<header class="header">
+		<div class="header__logo">
+			<a href="./index.html">Immaculé Kayinda</a>
+		</div>
+		<nav class="header__nav">
+			<ul class="header__nav__menu">
+			<li class="header__nav__menu-item header__nav__menu-item--">
+				<a href="./cv.html" class="header__nav__menu-link">CV</a>
+			</li>
+			<li class="header__nav__menu-item">
+				<a href="./contact.html" class="header__nav__menu-link">Contact</a>
+			</li>
+			<li class="header__nav__menu-item">
+				<a href="./projets.html" class="header__nav__menu-link">Project</a>
+			</li>
+			</ul>
+		</nav>
+	</header>
 	<main>
-		<h1 class="main-title">Curriculum Vitae</h1>
-		<div class="main">
-			<section class="experience-pro">
-			<h1>Experience professionnels</h1>
-			<div class="backend">
-				<div class='header'>
-				<div class="title">
-					<h3>Developpeur back-end PHP et nodeJS</h3>
-				</div>
-				<div class="date"><p>Fevrier 2018 - Present</p></div>
-				</div>
-						<div class="where">Sopra Steria</div>
-				<div class="main">
-				<p>
-					Au sein d'une équipe constituée d'un chef de projet web, de
-					développeurs, de Data Scientist et d'architectes DevOps, j'ai
-					réalisé de nombreuses missions sur des projets clients dans le
-					secteur de la défense : 
-					<ul>
-
-						<li>Développement d'API PHP sur les frameworks Symfony et Laravel</li>
-						<li>Intégration de requêtes SQL et ElasticSearch avancées</li>
-						<li>Ajout de nouveaux endpoints sur une API Express.js avec des enjeux de cyber-sécurité</li>
-						<li>Utilisation de services Amazon Web Services (AWS) sur NodeJS, pour déléguer le traitement de certaines tâches.</li>
-					</ul>
-				</p>
-				</div>
-			</div>
-			<div class="backend">
-				<div class='header'>
-					<div class="title">
-						<h3>Developpeur back-end Python</h3>
+		<h1 class="title">Curriculum Vitae</h1>
+		<div class="main__container">
+			<section class="main__container__experience-pro__list">
+				<h1>Experience professionnels</h1>
+				<div class="main__container__experience-pro">
+					<div class='main__container__experience-pro__header'>
+						<div class="main__container__experience-pro__header__title">
+							<h3>Developpeur back-end PHP et nodeJS</h3>
+						</div>
+						<div class="date"><p>Fevrier 2018 - Present</p></div>
 					</div>
-					<div class="date"><p>Juin 2018 - Janvier 2021</p></div>
+						<div class="where">Sopra Steria</div>
+					<div class="main">
+					<p>
+						Au sein d'une équipe constituée d'un chef de projet web, de
+						développeurs, de Data Scientist et d'architectes DevOps, j'ai
+						réalisé de nombreuses missions sur des projets clients dans le
+						secteur de la défense : 
+						<ul>
+
+							<li>Développement d'API PHP sur les frameworks Symfony et Laravel</li>
+							<li>Intégration de requêtes SQL et ElasticSearch avancées</li>
+							<li>Ajout de nouveaux endpoints sur une API Express.js avec des enjeux de cyber-sécurité</li>
+							<li>Utilisation de services Amazon Web Services (AWS) sur NodeJS, pour déléguer le traitement de certaines tâches.</li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				<div class="main__container__experience-pro">
+					<div class='main__container__experience-pro__header'>
+						<div class="main__container__experience-pro__header__title">
+							<h3>Developpeur back-end Python</h3>
+						</div>
+						<div class="date"><p>Juin 2018 - Janvier 2021</p></div>
+					</div>
+					<div class="where">Thales - Grenoble</div>
+					<div class="main">
+						<p>
+							Au sein d'une équipe de 5 développeurs et cloud architects, j'ai
+							développé certaines évolutions ainsi que des correctifs sur un
+							projet interne développé en Python, destiné à la maintenance
+							d'appareils aéronefs : 
+							<ul>
+								<li>Ameliorations des performances de certaines fonctions de traitement en masse sur des documents NoSQL</li>
+								<li>Realisation à temps et validation par les pairs de 96% des taches qui m'ont été affectées durant les sprints</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			<div class="main__container__experience-pro">
+				<div class='main__container__experience-pro__header'>
+					<div class="main__container__experience-pro__header__title">
+						<h3>Developpeur front-end ReactJS</h3>
+					</div>
+					<div class="date"><p>Janvier 2018 - Mars 2018</p></div>
 				</div>
 				<div class="where">Thales - Grenoble</div>
 				<div class="main">
@@ -52,39 +94,18 @@
 						projet interne développé en Python, destiné à la maintenance
 						d'appareils aéronefs : 
 						<ul>
+							<li>Nouveaux endpoints sur une API GraphQL</li>
 							<li>Ameliorations des performances de certaines fonctions de traitement en masse sur des documents NoSQL</li>
 							<li>Realisation à temps et validation par les pairs de 96% des taches qui m'ont été affectées durant les sprints</li>
 						</ul>
 					</p>
 				</div>
 			</div>
-			<div class="backend">
-			</div>
-			<div class='header'>
-				<div class="title">
-					<h3>Developpeur front-end ReactJS</h3>
-				</div>
-				<div class="date"><p>Janvier 2018 - Mars 2018</p></div>
-			</div>
-					<div class="where">Thales - Grenoble</div>
-			<div class="main">
-				<p>
-				Au sein d'une équipe de 5 développeurs et cloud architects, j'ai
-				développé certaines évolutions ainsi que des correctifs sur un
-				projet interne développé en Python, destiné à la maintenance
-				d'appareils aéronefs : 
-					<ul>
-						<li>Nouveaux endpoints sur une API GraphQL</li>
-						<li>Ameliorations des performances de certaines fonctions de traitement en masse sur des documents NoSQL</li>
-						<li>Realisation à temps et validation par les pairs de 96% des taches qui m'ont été affectées durant les sprints</li>
-					</ul>
-				</p>
-			</div>
 			</section>
-			<section class="experiences-pro exp">
+			<section class="main__container__experiences-pro">
 				<h1>Experience Professionnel</h1>
-				<div class='header'>
-					<div class="title"><h3>Diplome d'ingenieur informatique</h3></div>
+				<div class='main__container__experience-pro__header'>
+					<div class="main__container__experience-pro__header__title"><h3>Diplome d'ingenieur informatique</h3></div>
 					<div class="date">2016 à 2019</div>
 				</div>
 				<div class="where">EFREI - Paris</div>

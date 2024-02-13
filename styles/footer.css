@@ -1,0 +1,13 @@
+/* =================================================================
+    FOOTER EDITING 
+   =================================================================*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+  padding: 25px 50px;
+  font-size: 15px;
+  line-height: 31.95px;
+}

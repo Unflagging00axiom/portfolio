@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+}
+
+.main__section__form__group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.main__section__form__group__label {
+  font-size: 600px;
+  font-weight: 900;
+}
+.main__section__form__group__item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}

@@ -1,15 +1,36 @@
 .main {
   display: flex;
   margin: auto;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 40vh;
+}
+
+.main__section--contact {
+  display: grid;
+  gap: 2em;
+  line-height: 43px;
+}
+
+.main__section__title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main__section__info__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main__section__info__content {
+  font-size: 17px;
 }
 
 .main__section__form__group {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  gap: 40px 50px;
 }
 
 .main__section__form__group__label {
@@ -18,6 +39,33 @@
 }
 .main__section__form__group__item {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+.main__section__form__input {
+  padding: 5px;
+  margin-top: 6px;
+  width: 20rem;
+  height: 3em;
+}
+
+.main__section__form__textarea {
+  padding: 5px;
+  margin-top: 6px;
+  width: 20rem;
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #eea302;
+  border: 1px solid #593e03;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
 }

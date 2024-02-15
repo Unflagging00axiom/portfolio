@@ -1,5 +1,4 @@
 .main {
-  padding: 0 15vw;
   margin: auto;
   max-width: 80vw;
 }
@@ -35,13 +34,12 @@
 }
 
 .main__project-picture {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
-.main__project img {
-  max-width: 400px;
+.main__project-picture img {
+  max-width: 100%;
   height: 100%;
   object-fit: contain;
 }

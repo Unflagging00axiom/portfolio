@@ -1,0 +1,107 @@
+.main {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: auto;
+  padding: 17vh 0;
+  font-size: 20px;
+  line-height: 35.5px;
+}
+
+.main__section--contact {
+  display: grid;
+  gap: 2em;
+  line-height: 39px;
+}
+
+.main__section__title {
+  font-size: 28px;
+  line-height: 46.7px;
+  font-weight: 700;
+}
+
+.main__section__info__title {
+  font-size: 24px;
+  line-height: 42.61px;
+  font-weight: 700;
+}
+
+.main__section__info__content {
+}
+
+.main__section__form__group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 40px 50px;
+  width: 100%;
+}
+
+.main__section__form__group__label {
+  font-size: 20px;
+  font-weight: 100;
+}
+.main__section__form__group__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+.main__section__form__input {
+  padding: 5px;
+  margin-top: 6px;
+  width: 20rem;
+  height: 3em;
+}
+
+.main__section__form__textarea {
+  padding: 5px;
+  margin-top: 6px;
+  width: 20rem;
+  height: 150px;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #eea302;
+  border: 1px solid #593e03;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* =================================================================
+      BEGIN RESPONSIVE CONTENT STYLING EDITIONS
+   =================================================================-*/
+
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1vw 8vw;
+  }
+  .main__section,
+  .main__section__form,
+  .main__section__form__group * {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__section__form__group {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .main__section__form__group input:not(input[type="submit"]),
+  .main__section__form__textarea {
+    width: 100%;
+  }
+}

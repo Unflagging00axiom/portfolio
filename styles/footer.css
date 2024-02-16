@@ -1,0 +1,42 @@
+/* =================================================================
+    FOOTER EDITING 
+   =================================================================*/
+footer {
+  border-top: 5px solid #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding: 25px 50px;
+  font-size: 15px;
+  line-height: 31.95px;
+}
+
+/* =================================================================
+    BEGIN RESPONSIVE CONTENT STYLING EDITIONS
+   =================================================================-*/
+
+@media screen and (max-width: 767px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .footer__item:last-child {
+    font-size: 10px;
+  }
+
+  .footer__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  footer {
+    font-size: 1.3vw;
+  }
+}

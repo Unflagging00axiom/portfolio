@@ -79,4 +79,8 @@ h3 {
     font-size: 2vw;
     line-height: 15px;
   }
+
+  .main__container__experience-pro__header {
+    flex-direction: column;
+  }
 }

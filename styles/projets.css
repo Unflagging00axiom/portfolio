@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  margin-bottom: 30px;
 }
 
 .main__project-item {
@@ -26,7 +27,7 @@
 .main__project-title {
   display: block;
   font-size: 33px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: bolder;
   color: rgb(255, 210, 210);
 }
@@ -62,9 +63,6 @@
    =================================================================-*/
 
 @media screen and (max-width: 1024px) {
-  body {
-    background-color: rgb(255, 240, 240);
-  }
 }
 
 @media screen and (max-width: 768px) {

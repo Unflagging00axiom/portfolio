@@ -17,7 +17,7 @@ footer {
     BEGIN RESPONSIVE CONTENT STYLING EDITIONS
    =================================================================-*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   footer {
     flex-direction: column;
   }
@@ -37,6 +37,6 @@ footer {
 
 @media screen and (max-width: 1023px) {
   footer {
-    font-size: 1.3vw;
+    font-size: 80%;
   }
 }

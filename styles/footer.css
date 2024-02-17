@@ -13,13 +13,40 @@ footer {
   line-height: 31.95px;
 }
 
+.footer__social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__title:last-child {
+  font-weight: normal;
+}
+
+.footer__social i {
+  font-size: 24px;
+}
+
 /* =================================================================
     BEGIN RESPONSIVE CONTENT STYLING EDITIONS
    =================================================================-*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   footer {
+    display: flex;
     flex-direction: column;
+    padding: 35px 0;
+  }
+
+  .footer__item h3 {
+    font-size: 34px;
+  }
+
+  .footer__social {
+    font-size: 34px;
+  }
+
+  .footer__item p {
+    font-size: 24px;
   }
 
   .footer__item:last-child {
@@ -37,6 +64,6 @@ footer {
 
 @media screen and (max-width: 1023px) {
   footer {
-    font-size: 1.3vw;
+    font-size: 80%;
   }
 }

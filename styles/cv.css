@@ -54,23 +54,24 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-  main .title {
-    font-size: 30px;
+    main .title {
+    font-size: 18px;
+    padding: 0;
   }
   .main__container section {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   section h1 {
-    font-size: 26px;
-    padding-bottom: 0;
+    font-size: 15px;
+    padding: 0;
   }
   .main__container__experience-pro {
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
   .main__container__experience-pro__header__title h3 {
-    font-size: 21px;
+    font-size: 12px;
     line-height: 24px;
   }
 
@@ -78,11 +79,8 @@ h3 {
   .where,
   main p,
   main ul li {
-    font-size: 19px;
-    line-height: 33px;
+    font-size: 10px;
+    line-height: 20px;
   }
 
-  .main__container__experience-pro__header {
-    flex-direction: column;
-  }
 }

@@ -38,20 +38,19 @@ footer {
   }
 
   .footer__item h3 {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   .footer__social {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   .footer__item p {
-    font-size: 24px;
+    font-size: 22px;
   }
 
-  .footer__item:last-child {
-    font-size: 10px;
-  }
+
+
 
   .footer__item {
     display: flex;
